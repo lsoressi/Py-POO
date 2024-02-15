@@ -7,8 +7,9 @@ def funcionejercicio1(num1, num2, selector):
         return (num1 * num2) 
     
     else:
-        (print(f'La operacion es incorrecta'))
+       return (f'La operacion es incorrecta')
+        
 
-resultado= funcionejercicio1(5, 2, 1)  
+resultado= funcionejercicio1(5, 2, 3)  
 print(resultado)
     
