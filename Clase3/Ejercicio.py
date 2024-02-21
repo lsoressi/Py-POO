@@ -10,6 +10,6 @@ def funcionejercicio1(num1, num2, selector):
        return (f'La operacion es incorrecta')
         
 
-resultado= funcionejercicio1(5, 10, 2)  
+resultado= funcionejercicio1(5, 10, 4)  
 print(resultado)
     
