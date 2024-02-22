@@ -59,3 +59,5 @@ auto2 = Auto("Peugeot", "208", "Azul", "2022", "Daniado", True)
 
 auto1.modificarEstadoMotor()
 auto2.modificarEstadoMotor()
+auto1.repararAuto()
+auto2.repararAuto()
