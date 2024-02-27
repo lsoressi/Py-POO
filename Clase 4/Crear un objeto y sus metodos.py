@@ -36,6 +36,13 @@ class Auto:
         print(f'Estado: {self.getEstado()}')
         print(f'Estado Motor: {self.getMotorPrendido()}')
 
+    def mostrarAuto(self):
+        print(f'Marca: {self.getMarca()}')
+        print(f'Modelo: {self.getModelo()}')
+        print(f'Color: {self.getColor()}')
+        print(f'Anio: {self.getAnio()}')
+
+
     def repararAuto(self):
         if(self.estado == "Daniado"):
             print("Ya lo estoy arreglando")
@@ -57,7 +64,6 @@ class Auto:
 auto1 = Auto("Toyota", "Prius", "Rojo", "2020", "Funcionando", False)
 auto2 = Auto("Peugeot", "208", "Azul", "2022", "Daniado", True)
 
+auto1.mostrarAuto()
 auto1.modificarEstadoMotor()
-auto2.modificarEstadoMotor()
 auto1.repararAuto()
-auto2.repararAuto()
