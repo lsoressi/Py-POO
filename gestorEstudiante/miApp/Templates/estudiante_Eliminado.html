@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estudiante Eliminado</title>
+</head>
+<body>
+    <h1>Estudiante Eliminado</h1>
+    <p> El estudiante id: {{id_Eliminado}} fue eliminado</p>
+    
+    {% for estudiante in estudiantes %}
+        <li>{{estudiante.id}} - {{estudiante.nombre}} {{estudiante.apellido}}, {{estudiante.edad}} años {{estudiante.nota}}</li>
+    {% endfor %}
+    
+</body>
+</html>
