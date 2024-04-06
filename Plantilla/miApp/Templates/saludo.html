@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Hola Mundo!</h1>
+<h2>Mi nombre es {{nombre_usuario}}</h2>
+
+{% if cursos %}
+    <h2>Mis cursos realizados:</h2>
+<ul>
+    {% for curso in cursos %}
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{curso.titulo}}</h5>
+          <p class="card-text">{{curso.descripcion}}</p>
+          <a href="#" class="btn btn-primary">Mas Info</a>
+        </div>
+      </div>
+    {% endfor %}
+ </ul>
+{% else %}
+    <h2>No realizaste cursos</h2>
+{% endif %}     
+
+
+
+
+
+</body>
+</html>
