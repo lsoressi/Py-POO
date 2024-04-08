@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedor Creado</title>
+</head>
+<body>
+    <h1>Nuevo Proveedor Creado:</h1>
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+        {{ form }}
+        
+        <br>
+        <button type="submit" class="button">Agregar Proveedor</button>
+       
+    
+    </form>
+    {{mensaje}}
+
+
+
+    <!-- <p>Razon Social: {{ nuevo_proveedor.rSocial }}</p>
+    <p>Domicilio: {{ nuevo_proveedor.domicilio }}</p>
+    <p>Cuit: {{ nuevo_proveedor.cuit }}</p> -->
+</body>
+</html>
