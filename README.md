@@ -8,8 +8,8 @@ Comision 34
 # Instalacion
 Correr 
 ```
-pip install requeriments.txt
 cd .\StockControl\
+pip install requeriments.txt
 python manage.py runserver
 ```
 
