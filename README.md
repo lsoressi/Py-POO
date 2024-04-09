@@ -6,8 +6,8 @@ cd .\StockControl\
 python manage.py runserver
 ```
 
-# Super Admnin
-Aqui estaran disponible el modelo Producto y Proveedor
+# Super Admin
+Aqui estaran disponibles el modelo Producto y Proveedor
 
 url : /admin
 
