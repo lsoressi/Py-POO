@@ -1,3 +1,10 @@
+# Datos del Alumno
+Luciana Soressi
+
+Py-POO
+
+Comision 34
+
 # Instalacion
 Correr 
 ```
